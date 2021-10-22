@@ -41,6 +41,7 @@ function App() {
   });
   store.dispatch(BuyBooks());
   store.dispatch(BuyPens());
+  store.dispatch(BuyPens());
   unsubscribe();
   return (
     <div>
